@@ -135,7 +135,7 @@ def makeWebhookResult(data):
     '''
 
     speech = data
-
+d
     print("Response:")
     print(speech)
 
