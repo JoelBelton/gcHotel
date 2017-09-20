@@ -93,13 +93,10 @@ def define(req):
         return None
 
     if n == "SEO":
-        print "definition of SEO"
         return "definition of SEO"
     elif n == "Hotel":
-        print "definition of Hotel"
         return "definition of Hotel"
     else:
-    print "Couldn't find it."
     return "Couldn't find it."
 
     return{}
