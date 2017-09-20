@@ -92,18 +92,15 @@ def define(req):
     if n is None:
         return None
 
-    while switch(n):
-    if case("SEO"):
+    if n == "SEO":
         print "definition of SEO"
         return "definition of SEO"
-        break
-    if case("Hotel"):
+    elif n == "Hotel":
         print "definition of Hotel"
         return "definition of Hotel"
-        break
+    else:
     print "Couldn't find it."
     return "Couldn't find it."
-    break
 
     return{}
 
