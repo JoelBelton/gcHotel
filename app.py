@@ -97,7 +97,7 @@ def define(req):
     elif n == "Hotel":
         return "definition of Hotel"
     else:
-    return "Couldn't find it."
+        return "Couldn't find it."
 
     return{}
 
@@ -129,7 +129,7 @@ def makeWebhookResult(data):
     '''
 
     speech = data
-d
+
     print("Response:")
     print(speech)
 
